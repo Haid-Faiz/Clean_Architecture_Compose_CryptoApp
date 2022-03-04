@@ -1,4 +1,4 @@
-package com.example.clean_architecture_jetpackcompose_cryptoapp.ui.theme
+package com.example.clean_architecture_jetpackcompose_cryptoapp.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -1,4 +1,4 @@
-package com.example.clean_architecture_jetpackcompose_cryptoapp
+package com.example.clean_architecture_jetpackcompose_cryptoapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.clean_architecture_jetpackcompose_cryptoapp.ui.theme.Clean_Architecture_JetpackCompose_CryptoAppTheme
+import com.example.clean_architecture_jetpackcompose_cryptoapp.presentation.ui.theme.Clean_Architecture_JetpackCompose_CryptoAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

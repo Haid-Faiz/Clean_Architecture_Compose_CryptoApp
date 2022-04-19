@@ -7,11 +7,11 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Tag(
     @SerialName("coin_counter")
-    var coinCounter: Int? = null,
+    var coinCounter: Int,
     @SerialName("ico_counter")
-    var icoCounter: Int? = null,
+    var icoCounter: Int,
     @SerialName("id")
-    var id: String? = null,
+    var id: String,
     @SerialName("name")
-    var name: String? = null
+    var name: String
 )

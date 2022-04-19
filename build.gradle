@@ -1,14 +1,16 @@
 buildscript {
     ext {
         compose_version = '1.1.1'
-//        kotlin_version = '1.5.0'
+        kotlin_version = '1.6.10'
     }
 
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        // Dagger-Hilt
         classpath "com.google.dagger:hilt-android-gradle-plugin:2.39"
-        classpath "org.jetbrains.kotlin:kotlin-serialization:1.5.0"
+        // Kotlinx Serialization
+        classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

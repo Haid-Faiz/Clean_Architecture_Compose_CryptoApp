@@ -8,9 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".CoinApplication"
         android:theme="@style/Theme.Clean_Architecture_JetpackCompose_CryptoApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Clean_Architecture_JetpackCompose_CryptoApp">
